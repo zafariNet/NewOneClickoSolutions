@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OneClickSolutions.Infrastructure.Web\OneClickSolutions.Infrastructure.Web.csproj" />
+    <ProjectReference Include="..\OneClickSolutions.Infrastructure\OneClickSolutions.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

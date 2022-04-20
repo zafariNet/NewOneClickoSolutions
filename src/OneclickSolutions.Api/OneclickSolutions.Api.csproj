@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.4">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.Cqrs\OneClickSolutions.Infrastructure.Cqrs.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.EntityFrameworkCore.SqlServer\OneClickSolutions.Infrastructure.EntityFrameworkCore.SqlServer.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.EntityFrameworkCore\OneClickSolutions.Infrastructure.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.FluentValidation\OneClickSolutions.Infrastructure.FluentValidation.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.Web.EntityFrameworkCore\OneClickSolutions.Infrastructure.Web.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.Web.Tenancy\OneClickSolutions.Infrastructure.Web.Tenancy.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.Web\OneClickSolutions.Infrastructure.Web.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure\OneClickSolutions.Infrastructure.csproj" />
+	  <ProjectReference Include="..\OneClickSolutions.Application\OneClickSolutions.Application.csproj" />
+	  <ProjectReference Include="..\OneClickSolutions.DataAccess\OneClickSolutions.DataAccess.csproj" />
+	  <ProjectReference Include="..\OneClickSolutions.Domain.Service\OneClickSolutions.Domain.Service.csproj" />
+	  <ProjectReference Include="..\OneClickSolutions.Domain\OneClickSolutions.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Controllers\Base\" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure.EntityFrameworkCore\\OneClickSolutions.Infrastructure.EntityFrameworkCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure.EntityFrameworkCore\\OneClickSolutions.Infrastructure.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure.EntityFrameworkCore\\OneClickSolutions.Infrastructure.EntityFrameworkCore.csproj",
+        "projectName": "OneClickSolutions.Infrastructure.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure.EntityFrameworkCore\\OneClickSolutions.Infrastructure.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\zafar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zafar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure\\OneClickSolutions.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure\\OneClickSolutions.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure\\OneClickSolutions.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure\\OneClickSolutions.Infrastructure.csproj",
+        "projectName": "OneClickSolutions.Infrastructure",
+        "projectPath": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure\\OneClickSolutions.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\zafar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zafar\\Desktop\\OneClickSolutions\\src\\Infrastructure\\OneClickSolutions.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zafar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

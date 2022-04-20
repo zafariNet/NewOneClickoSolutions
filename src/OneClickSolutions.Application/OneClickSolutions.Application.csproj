@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
+		<PackageReference Include="Scrutor" Version="4.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.Cqrs\OneClickSolutions.Infrastructure.Cqrs.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.EntityFrameworkCore.SqlServer\OneClickSolutions.Infrastructure.EntityFrameworkCore.SqlServer.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.EntityFrameworkCore\OneClickSolutions.Infrastructure.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure.FluentValidation\OneClickSolutions.Infrastructure.FluentValidation.csproj" />
+	  <ProjectReference Include="..\Infrastructure\OneClickSolutions.Infrastructure\OneClickSolutions.Infrastructure.csproj" />
+	  <ProjectReference Include="..\OneClickSolutions.DataAccess\OneClickSolutions.DataAccess.csproj" />
+	  <ProjectReference Include="..\OneClickSolutions.Domain\OneClickSolutions.Domain.csproj" />
+	</ItemGroup>
+</Project>

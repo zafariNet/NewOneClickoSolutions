@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6b6a434b-821b-4986-b56d-16c5c888fb02": {
+      "ProjectGuid": "6b6a434b-821b-4986-b56d-16c5c888fb02",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 0
+    },
+    "52ba0724-52e7-4fcf-8367-9eaf2668ec8a": {
+      "ProjectGuid": "52ba0724-52e7-4fcf-8367-9eaf2668ec8a",
+      "DisplayName": "OneClickSolutions.Infrastructure.Web.Tenancy",
+      "ColorIndex": 1
+    },
+    "d419a536-72d9-43ee-8c3f-225396bdffc6": {
+      "ProjectGuid": "d419a536-72d9-43ee-8c3f-225396bdffc6",
+      "DisplayName": "OneClickSolutions.Infrastructure.Web.EntityFrameworkCore",
+      "ColorIndex": 2
+    },
+    "f6aa1609-7260-4bbf-90b9-ba828f89a00e": {
+      "ProjectGuid": "f6aa1609-7260-4bbf-90b9-ba828f89a00e",
+      "DisplayName": "OneClickSolutions.Infrastructure.FluentValidation",
+      "ColorIndex": 3
+    },
+    "d017afe9-1120-46d9-bf94-22c034f1b115": {
+      "ProjectGuid": "d017afe9-1120-46d9-bf94-22c034f1b115",
+      "DisplayName": "OnclickSolutions.AutoClick.Api",
+      "ColorIndex": 4
+    },
+    "661f2c0f-390e-4c11-85b5-c36de112876a": {
+      "ProjectGuid": "661f2c0f-390e-4c11-85b5-c36de112876a",
+      "DisplayName": "OneClickSolutions.Infrastructure.Web",
+      "ColorIndex": 5
+    },
+    "9316b53a-6efe-4e28-97e1-dc307c885dd3": {
+      "ProjectGuid": "9316b53a-6efe-4e28-97e1-dc307c885dd3",
+      "DisplayName": "OneClickSolutions.Infrastructure.EntityFrameworkCore.SqlServer",
+      "ColorIndex": 6
+    },
+    "489bf74f-4cfa-4804-838e-56f53f68bf04": {
+      "ProjectGuid": "489bf74f-4cfa-4804-838e-56f53f68bf04",
+      "DisplayName": "OneClickSolutions.Infrastructure.EntityFrameworkCore",
+      "ColorIndex": 7
+    },
+    "9a9db2ab-d0db-40ce-bf15-301cea833df5": {
+      "ProjectGuid": "9a9db2ab-d0db-40ce-bf15-301cea833df5",
+      "DisplayName": "OneClickSolutions.Infrastructure",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a5e63e04-0885-4c13-8903-a4317e179a16": {
+      "ProjectGuid": "a5e63e04-0885-4c13-8903-a4317e179a16",
+      "DisplayName": "OneClickSolutions.Infrastructure.Cqrs",
+      "ColorIndex": 9
+    },
+    "5a28dd88-a6dd-4d48-9788-fe7a897df4fe": {
+      "ProjectGuid": "5a28dd88-a6dd-4d48-9788-fe7a897df4fe",
+      "DisplayName": "OnclickSolutions.AutoClick.Domain",
+      "ColorIndex": 10
+    },
+    "fbb769f5-f63e-4226-bb28-1816d838cdd3": {
+      "ProjectGuid": "fbb769f5-f63e-4226-bb28-1816d838cdd3",
+      "DisplayName": "OnclickSolutions.AutoClick.DataAccess",
+      "ColorIndex": 11
+    },
+    "b4c70d3d-a23c-4bd5-a847-4e1e5032ec59": {
+      "ProjectGuid": "b4c70d3d-a23c-4bd5-a847-4e1e5032ec59",
+      "DisplayName": "OnclickSolutions.AutoClick.Application",
+      "ColorIndex": 12
+    },
+    "2b6b8069-c931-4f39-8314-bc8fdf0f287e": {
+      "ProjectGuid": "2b6b8069-c931-4f39-8314-bc8fdf0f287e",
+      "DisplayName": "OnclickSolutions.AutoClick.Api",
+      "ColorIndex": 13
+    },
+    "62226c39-75dc-4526-b7d5-5a6fa1ae4dd9": {
+      "ProjectGuid": "62226c39-75dc-4526-b7d5-5a6fa1ae4dd9",
+      "DisplayName": "OnclickSolutions.AutoClick.Domain.Service",
+      "ColorIndex": 14
+    },
+    "f5928210-23c5-4e71-93f8-98323690fb21": {
+      "ProjectGuid": "f5928210-23c5-4e71-93f8-98323690fb21",
+      "DisplayName": "src",
+      "ColorIndex": 15
+    },
+    "60b02188-5eee-4348-9e7a-2cafd85793e5": {
+      "ProjectGuid": "60b02188-5eee-4348-9e7a-2cafd85793e5",
+      "DisplayName": "OneClickSolutions.Application",
+      "ColorIndex": 0
+    },
+    "906b0289-69ff-4d8b-813a-8c7348f6f471": {
+      "ProjectGuid": "906b0289-69ff-4d8b-813a-8c7348f6f471",
+      "DisplayName": "OneClickSolutions.Domain",
+      "ColorIndex": 1
+    },
+    "7040f328-19db-41d6-8409-d2978f01e961": {
+      "ProjectGuid": "7040f328-19db-41d6-8409-d2978f01e961",
+      "DisplayName": "OneclickSolutions.Api",
+      "ColorIndex": 2
+    },
+    "6355f6d3-ed5f-49d9-a6f4-f68eee9d2189": {
+      "ProjectGuid": "6355f6d3-ed5f-49d9-a6f4-f68eee9d2189",
+      "DisplayName": "OneClickSolutions.DataAccess",
+      "ColorIndex": 3
+    },
+    "cf85e4f8-9096-4a8b-995b-a892bf9a8471": {
+      "ProjectGuid": "cf85e4f8-9096-4a8b-995b-a892bf9a8471",
+      "DisplayName": "OneClickSolutions.Domain.Service",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
